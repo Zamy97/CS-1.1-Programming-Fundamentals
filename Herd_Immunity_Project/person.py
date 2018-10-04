@@ -9,7 +9,7 @@ class Person(object):
 
     _id: Int.  A unique ID assigned to each person.
 
-    is_vaccinated: Bool.  Determines whether the person object is vaccinated against
+    is_vaccinated: Bool. Determines whether the person object is vaccinated against
         the disease in the simulation.
 
     is_alive: Bool. All person objects begin alive (value set to true).  Changed
@@ -54,5 +54,5 @@ class Person(object):
         # TODO:  Finish this method. Follow the instructions in the class documentation
         # TODO: You will need to decide what parameters you pass into this method based on how you structure your class.
         # for resolve_infection.  If person dies, set is_alive to False and return False.
-        # If person lives, set is_vaccinated = True, infection = None, return True.  
+        # If person lives, set is_vaccinated = True, infection = None, return True.
         pass
